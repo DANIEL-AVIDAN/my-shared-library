@@ -18,3 +18,11 @@ def testApp() {
 def deployApp(String branch = 'main') {
     echo "Deploying application from branch: ${branch}"
 }
+
+def chromeTest() {
+    echo "Running Chrome tests"
+}
+
+def firefoxTest() {
+    echo "Running Firefox tests"
+}
