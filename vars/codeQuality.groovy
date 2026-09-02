@@ -20,3 +20,7 @@ def sonarLocalScan() {
         """
     }
 }
+
+def sonarEcho() {
+    echo "SonarQube analysis completed. Please check the SonarQube dashboard for results."
+}
