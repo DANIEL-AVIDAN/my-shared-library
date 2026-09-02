@@ -29,7 +29,7 @@ def firefoxTest() {
 
 def userApproval() {
     input(
-    message: 'Is the application running successfully?',
+    message: 'Is the application running successfully??',
     ok: 'Continue'
     )
 }
