@@ -33,3 +33,7 @@ def userApproval() {
     ok: 'Continue'
     )
 }
+
+def continuePipeline() {
+    echo "Continuing the pipeline!!!"
+}
