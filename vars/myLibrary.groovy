@@ -26,3 +26,10 @@ def chromeTest() {
 def firefoxTest() {
     echo "Running Firefox tests"
 }
+
+def userApproval() {
+    input(
+    message: 'Is the application running successfully?',
+    ok: 'Continue'
+    )
+}
